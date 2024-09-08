@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+  <script type="module" crossorigin src="/w6_ContentSubscriptionWebsiteBootstrap5/assets/main-4e120d13.js"></script>
+  <link rel="stylesheet" href="/w6_ContentSubscriptionWebsiteBootstrap5/assets/main-b34bdc01.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary-100 border-bottom py-7">
+    <div class="container">
+        <!-- <a class="navbar-brand" href="#">Vivre</a> -->
+        <a class="navbar-brand" href="../pages/index.html"><img src="/w6_ContentSubscriptionWebsiteBootstrap5/assets/logo-24ada3bb.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex position-relative">
+                <input class="form-control py-2 px-4 rounded-pill border bg-white" type="search" placeholder="搜尋文章" aria-label="Search">
+                <span class="btn position-absolute top-50 end-0 translate-middle-y py-2 pe-4 text-secondary-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg></span>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link py-3 px-5" aria-current="page" href="#">所有文章</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link py-3 px-5" href="#">訂閱方案</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link py-3 px-5" href="#">關於我們</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active btn btn-secondary-200 rounded-pill text-white py-3 px-5" href="../pages/register.html" >登入 / 註冊</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+        <main>
+            <section class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto px-0">
+                        <div class="registerStyle bg-white p-7 border border-Primary-300 rounded">
+                            <p class="mb-7 fs-4 text-secondary-200">註冊</p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">會員帳號</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="請輸入會員帳號">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">密碼</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="請輸入密碼">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">電子信箱</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="請輸入電子信箱">
+                                </div>
+                                <div class="d-flex justify-content-center col-12">
+                                    <button type="submit" class="btn btn-secondary-200 rounded-pill text-white w-100">立即註冊　<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg></button>
+                                </div>
+                                <div class="position-relative my-7">
+                                    <hr class="text-secondary">
+                                    <p class="text-gray-300 position-absolute top-50 start-50 translate-middle bg-white px-2">或以其他方式註冊</p>
+                                    <!-- <div></div> -->
+                                </div>
+                                <div class="d-flex justify-content-center col-12 mb-1">
+                                    <button type="submit" class="btn btn-gray-100 rounded-pill gray-600 w-100"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGySURBVHgBtZM/T8JAGMafa4kQHSSMTCXRxMRBMK5GOjqYlNFJ/QAmTqyIg3HzIwCLjnQwrpToZqJFXRyMXYxOSmQAIuV8j9YGShv/RJ/k7tr33v7e5/4U+COxsAmeRRw2NMpQBgEJJvUmM2B9C+QCDulxE8EqQ0bRD2Q+iII+auCui3AZ7AzqcCDyBcSgUg0amxRfoTFLzSJHW36yB8KiXMCF/QkRH+bYOYGGHS/TnsnB+zRYGq/FFEj8AZc2cEqtw3NkXccP5DiS+2lwJlwBc7LBVrsjkGS+sRsGYJGI/rg/bzogLqWpc2YmWd2fzMEKYSD0eqI3pfEZHscv5DhitHmuodv3xALwNJLEwIsYdbhBgzJ4kZnp5IiJGl1CKfp63J7FUXtGhNSTnG4EVU7mrzWqWfWgkp16PshYg6UxFc291lLFhQhV16qa5odkSztZGkqeU4aygHiOhLSqFqeDv+LwXUigTknTFE8LVusthfu7ddh21OKsr46BXJhCsJoPNqZuJ2HdNLY9iNDIqek53aKbpBK9EgYRy5mKvWSGIWOOAtyl3SXRbwhrgmpRsSb+Ux8DMpnpdyeTfAAAAABJRU5ErkJggg==" alt="icons-google" >使用 Google 註冊</button>
+                                </div>
+                                <div class="d-flex justify-content-center col-12">
+                                    <button type="submit" class="btn btn-gray-100 rounded-pill gray-600 w-100">立即註冊　<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                        </svg></button>
+                                </div>
+                                <p class="text-center mt-7">已經是會員了？　<span class="text-secondary-200">點此登入</span></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <div class="container px-0">
+    <hr>
+    <p class="text-center py-5">©Vivre 2024 All right Reserved</p>
+</div>
+            
+</body>
+
+</html>
